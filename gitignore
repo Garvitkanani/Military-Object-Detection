@@ -1,0 +1,37 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Environment variables and virtual envs
+.env
+.venv/
+env/
+venv/
+
+# Model weights
+*.pt
+
+# Results and outputs
+results/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Ignore all .pt files except best.pt
+*.pt
+!models/best.pt
